@@ -1,0 +1,20 @@
+td
+{
+   width: 100px;
+   height: 100px;
+}
+
+.middle{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.Hmiddle{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+h2{
+    text-align: center;
+}
+
+table{ margin: 0 auto;}

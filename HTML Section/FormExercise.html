@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Page</title>
+</head>
+<body>
+	<h2>Register</h2>
+	<form action="" method="GET">
+		<label for="firstName">First Name</label>
+		<input type="text" name="firstName" required>
+
+		<label for="lastName">Last Name</label>
+		<input type="text" name="lastName" required>
+		
+	<br>
+		
+		<label for="gender">Male</label>
+		<input type="radio" name="gender" id="Male" value="Male">
+
+		<label for="gender">Female</label>
+		<input type="radio" name="gender" id="Female" value="Female">
+		
+		<label for="gender">Other</label>
+		<input type="radio" name="gender" id="Other" value="Other">
+		
+	<br>
+		
+		<label for="email">Email</label>
+		<input type="email" name="email">
+
+		<label for="password">Password</label>
+		<input type="password" name="password" minlength="5" maxlength="10">
+	<br>
+	<label>Birthday: </label>
+		<select name="month">
+			<option>Month</option>
+			<option>jan</option>
+			<option>feb</option>
+			<option>mar</option>
+		</select>
+		<select name="day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+		<select name="year">
+			<option>Year</option>
+			<option>1996</option>
+			<option>1995</option>
+			<option>1994</option>
+		</select>
+		
+	<br>
+		<label for="agreement">I agree to the terms and conditions</label>
+		<input type="select" name="agreement">
+
+	<br>
+		<input type="submit" name="">
+	</form>
+
+</body>
+</html>
