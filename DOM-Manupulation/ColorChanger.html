@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Changer</title>
+</head>
+<body>
+    <button>Change color</button>
+    
+    <script>
+        var button = document.getElementsByTagName('button')[0];
+        var body = document.getElementsByTagName('body')[0];
+        button.addEventListener('click', () => {
+            if(body.style.background === 'red'){
+                body.style.background = 'white';
+            }else{ 
+                body.style.background = 'red';
+            }
+        })
+    </script>
+
+</body>
+</html>
