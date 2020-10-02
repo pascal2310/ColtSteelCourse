@@ -1,27 +1,31 @@
-.colorBox{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 60%;
-    margin: 0 auto;
-}
-.box{
-    width: 30%;
-    padding-bottom: 30%;
-    border-radius: 4px;
-    margin: 1.66%; 
-    background: blanchedalmond;
-}
-body{
-    background-color: #232323;
+body {
+	background-color: #232323;
 }
 
-h1{
-    color: white;
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
 }
-.navbar{
-    width: 100%;
-    height: 20px;
-    background-color: lightblue;
-    text-align: center;
+
+#container {
+	margin: 0px auto;
+	max-width: 600px;
+}
+
+h1 {
+	color: white;
+}
+
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	background: blue;
 }
